@@ -15,6 +15,7 @@
 	not exists (select * from Products Pr where UnitPrice < 5 
 	and not exists(select * from [Order Details] Od join Orders O on Od.OrderID = O.OrderID where Od.ProductID = Pr.ProductID and O.CustomerID = C.CustomerID)
 	)
+ZRFDFDFGDDFG
 	go
 	---------------------------------------------------------------------------------------------------------------
 	alter proc nbr_commande_client_parm @id nvarchar(50) as
