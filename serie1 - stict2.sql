@@ -12,7 +12,7 @@ SELECT  * FROM Customers WHERE  EXISTS (SELECT CustomerID  FROM Orders WHERE Ord
 ----.c) Utiliser une version avec une jointure 
 SELECT  DISTINCT * FROM Customers  INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID
  
-
+jdhjdskjgfkjdsgfdskj
  ----4)Sélectionner le nombre total de clients 
  SELECT COUNT(CustomerID) FROM Customers 
  ----Clients qui ont commandées
