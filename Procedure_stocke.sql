@@ -98,5 +98,23 @@ ZRFDFDFGDDFG
 
 	exec nbr_commande_client_parm_exo3 AlFKI
 
+k
+k
+k
+k
+k
+k
+kk
+k
+k
+k
+k
+k
+k
+k
+k
+kk
+k
+k
 
 	select CustomerID from Orders order by CustomerID (select top 5  OrderID,CustomerID,OrderDate  from Orders  group by OrderID,CustomerID,OrderDate order by OrderDate desc)
